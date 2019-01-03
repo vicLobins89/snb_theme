@@ -1,0 +1,52 @@
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Desktop Stylsheet
+
+******************************************************************/
+
+.wrap {
+	width: 1030px;
+}
+
+h1, .h1 {
+	font-size: 3.2em;
+	line-height: 1.25em;
+}
+
+h2, .h2 {
+	font-size: 2em;
+}
+
+#logo {
+	width: 190px;
+	height: 190px;
+	left: 40px;
+}
+
+.nav {
+	text-align: center;
+	
+	li {
+		margin: 0 10px;
+
+		a {
+			font-size: 0.9em;
+		}
+	}
+}
+
+.workouts {
+	.col-hide {
+		display: block !important;
+	}
+	
+	.col-1of4 {
+		width: 16.66666667%;
+	}
+	
+	.col-1of3 {
+		width: 20%;
+	}
+}

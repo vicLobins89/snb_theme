@@ -1,0 +1,52 @@
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Typography
+
+******************************************************************/
+
+
+/*********************
+FONT FACE
+*********************/
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/Gotham-Black.eot');
+	src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Black.woff2') format('woff2'),
+		url('../fonts/Gotham-Black.woff') format('woff'),
+		url('../fonts/Gotham-Black.ttf') format('truetype'),
+		url('../fonts/Gotham-Black.svg#Gotham-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+// font stacks
+$sans-serif:        "Lato", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+$lato:				'Lato';
+$gotham:			'Gotham';
+
+.gotham,
+.gotham * {
+	font-family: $gotham;
+}
+
+/*
+Typographical defaults: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+  -ms-word-wrap: break-word;
+  word-break: break-word; //non-standart css for webkit
+  word-wrap: break-word;
+  // enabling fancy ligatures when available
+//  -webkit-font-feature-settings: "liga", "dlig";
+//   -moz-font-feature-settings: "liga=1, dlig=1";
+//      -ms-font-feature-settings: "liga", "dlig";
+//       -o-font-feature-settings: "liga", "dlig";
+//          font-feature-settings: "liga", "dlig";
+}

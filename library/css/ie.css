@@ -1,0 +1,360 @@
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: IE Stylesheet
+
+Import all the styles the standard stylesheet gets, only
+without the media queries.
+
+******************************************************************/
+/******************************************************************
+IMPORTS & DEPENDENCIES
+All the BASE styles are called already since IE can
+read those. Below we import the stuff IE can't
+understand (what's inside the media queries). We also need to
+import the mixins file so SASS can understand the variables.
+******************************************************************/
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Variables
+
+******************************************************************/
+/*********************
+COLORS
+Choosing your colors http://0to255.com/
+*********************/
+.white {
+  color: #fff !important; }
+  .white a {
+    color: #fff; }
+
+.black {
+  color: #000 !important; }
+
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Typography
+
+******************************************************************/
+/*********************
+FONT FACE
+*********************/
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham-Black.eot");
+  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff2") format("woff2"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg#Gotham-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+.gotham,
+.gotham * {
+  font-family: "Gotham"; }
+
+/*
+Typographical defaults: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+  -ms-word-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word; }
+
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Mixins Stylesheet
+
+Helpful:
+http://sachagreif.com/useful-sass-mixins/
+http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
+
+******************************************************************/
+/*********************
+TRANSITION
+*********************/
+/* @include transition(all 0.2s ease-in-out); */
+/*********************
+CSS3 GRADIENTS
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: IE Grid Styles
+
+******************************************************************/
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: 481px and Up Stylesheet
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+body {
+  font-size: 0.875em; }
+
+/*********************
+HEADER STYLES
+*********************/
+/*********************
+NAVIGATION STYLES
+*********************/
+/* .menu is clearfixed inside mixins.scss */
+.menu {
+  /* end .menu ul */ }
+  .menu ul {
+    /* end .menu ul li */
+    /* highlight current page */
+    /* end current highlighters */ }
+
+/* end .menu */
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* entry content */
+.entry-content .alignleft, .entry-content img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left; }
+.entry-content .alignright, .entry-content img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right; }
+.entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both; }
+
+/* end .entry-content */
+/*********************
+FOOTER STYLES
+*********************/
+/* end .footer-links */
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+body {
+  font-size: 100%; }
+
+#content {
+  padding-top: 76px; }
+
+.col-five .wpb_column {
+  width: 20%; }
+
+.button a, .button a:visited {
+  font-size: 25px; }
+  .button a:after, .button a:visited:after {
+    background-size: 15px;
+    width: 15px;
+    height: 25px;
+    top: 17px; }
+
+.workouts h2 {
+  text-align: left; }
+.workouts.vc_row .vc_align_left {
+  text-align: left;
+  margin-bottom: 0; }
+.workouts .col-hide {
+  display: none !important; }
+.workouts .col-1of4 {
+  width: 25%; }
+.workouts .col-1of3 {
+  width: 33.333%; }
+
+.instructors.odd .profile {
+  background: #fff; }
+  .instructors.odd .profile:before {
+    border-right-color: white;
+    border-bottom-color: transparent; }
+.instructors.even {
+  background: white; }
+  .instructors.even .profile {
+    background: #f5f5f5; }
+    .instructors.even .profile:before {
+      border-right-color: #f5f5f5;
+      border-bottom-color: transparent; }
+.instructors .profile:before {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+  left: -20px;
+  top: 50%;
+  margin-top: -20px; }
+
+.lessons img {
+  margin-bottom: 0px; }
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {
+  width: 760px; }
+
+/*********************
+HEADER STYLES
+*********************/
+.header #inner-header {
+  height: 76px; }
+
+#logo {
+  width: 120px;
+  height: 120px;
+  left: 10px; }
+  #logo.scrolled {
+    width: 107px;
+    height: 107px; }
+
+/*********************
+NAVIGATION STYLES
+*********************/
+.menu-button {
+  display: none; }
+
+.main-menu {
+  height: 100%;
+  position: relative;
+  padding-top: 0px; }
+
+.nav {
+  text-align: right;
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */ }
+  .nav li {
+    position: relative;
+    display: inline-block;
+    margin: 0 8px;
+    /* showing sub-menus */ }
+    .nav li a {
+      font-size: 0.8em; }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      /* highlight sub-menu current page */ }
+      .nav li ul.sub-menu li,
+      .nav li ul.children li {
+        /*
+        third level
+        */ }
+        .nav li ul.sub-menu li a:hover, .nav li ul.sub-menu li a:focus,
+        .nav li ul.children li a:hover,
+        .nav li ul.children li a:focus {
+          color: #333333; }
+        .nav li ul.sub-menu li ul,
+        .nav li ul.children li ul {
+          top: 0;
+          left: 100%; }
+
+/* end .nav */
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.widgettitle {
+  border-bottom: 2px solid #444;
+  margin-bottom: 0.75em; }
+
+.widget ul li {
+  margin-bottom: 0.75em;
+  /* deep nesting */ }
+  .widget ul li ul {
+    margin-top: 0.75em;
+    padding-left: 1em; }
+
+/* links widget */
+/* meta widget */
+/* pages widget */
+/* recent-posts widget */
+/* archives widget */
+/* tag-cloud widget */
+/* calendar widget */
+/* category widget */
+/* recent-comments widget */
+/* search widget */
+/* text widget */
+/*********************
+FOOTER STYLES
+*********************/
+.copyright {
+  font-size: 0.95em; }
+
+.footer-social {
+  margin: 50px auto 40px; }
+
+.footer-info {
+  line-height: 2;
+  font-size: 1.2em; }
+
+/* end .footer-links */
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Desktop Stylsheet
+
+******************************************************************/
+.wrap {
+  width: 1030px; }
+
+h1, .h1 {
+  font-size: 3.2em;
+  line-height: 1.25em; }
+
+h2, .h2 {
+  font-size: 2em; }
+
+#logo {
+  width: 190px;
+  height: 190px;
+  left: 40px; }
+
+.nav {
+  text-align: center; }
+  .nav li {
+    margin: 0 10px; }
+    .nav li a {
+      font-size: 0.9em; }
+
+.workouts .col-hide {
+  display: block !important; }
+.workouts .col-1of4 {
+  width: 16.66666667%; }
+.workouts .col-1of3 {
+  width: 20%; }
+
+/******************************************************************
+ADDITIONAL IE FIXES
+For more info on using Modernizr classes:
+http://www.modernizr.com/docs/
+******************************************************************/
+/*
+For example:
+
+.no-textshadow .class { ... }
+
+Can also target specific versions by using the classes applied to
+the html element. Check header.php file to see what they are:
+
+.lt-ie8 .class { ... }
+
+*/

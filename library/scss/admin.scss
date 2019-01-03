@@ -1,0 +1,22 @@
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Admin Stylesheet
+
+******************************************************************/
+
+.toplevel_page_honey-theme-settings {
+	input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
+		min-width: 50%;
+		min-height: 35px;
+	}
+	
+	.wp-core-ui .button, .wp-core-ui .button-secondary {
+		min-height: 35px;
+	}
+}
+
+.current-image {
+	max-width: 200px;
+}

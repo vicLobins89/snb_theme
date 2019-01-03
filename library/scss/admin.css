@@ -1,0 +1,15 @@
+/******************************************************************
+Site Name: Honey
+Author: Vic Lobins
+
+Stylesheet: Admin Stylesheet
+
+******************************************************************/
+.toplevel_page_honey-theme-settings input[type=text], .toplevel_page_honey-theme-settings input[type=search], .toplevel_page_honey-theme-settings input[type=radio], .toplevel_page_honey-theme-settings input[type=tel], .toplevel_page_honey-theme-settings input[type=time], .toplevel_page_honey-theme-settings input[type=url], .toplevel_page_honey-theme-settings input[type=week], .toplevel_page_honey-theme-settings input[type=password], .toplevel_page_honey-theme-settings input[type=checkbox], .toplevel_page_honey-theme-settings input[type=color], .toplevel_page_honey-theme-settings input[type=date], .toplevel_page_honey-theme-settings input[type=datetime], .toplevel_page_honey-theme-settings input[type=datetime-local], .toplevel_page_honey-theme-settings input[type=email], .toplevel_page_honey-theme-settings input[type=month], .toplevel_page_honey-theme-settings input[type=number], .toplevel_page_honey-theme-settings select, .toplevel_page_honey-theme-settings textarea {
+  min-width: 50%;
+  min-height: 35px; }
+.toplevel_page_honey-theme-settings .wp-core-ui .button, .toplevel_page_honey-theme-settings .wp-core-ui .button-secondary {
+  min-height: 35px; }
+
+.current-image {
+  max-width: 200px; }
