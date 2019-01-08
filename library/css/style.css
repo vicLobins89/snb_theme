@@ -1153,9 +1153,11 @@ video {
 
 #workouts_slider h3 {
   padding: 0 !important;
-  margin: 2em 0 !important;
-  position: relative;
-  font-size: 18px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
   background: #000;
   color: #fff;
   padding: 12px 45px 17px 30px;
@@ -1163,19 +1165,6 @@ video {
   transition: color 0.3s ease-in-out; }
   #workouts_slider h3:hover {
     color: #3fc1d2; }
-    #workouts_slider h3:hover:after {
-      right: 14px; }
-  #workouts_slider h3:after {
-    content: '';
-    position: absolute;
-    background: url(../images/blue-arrow.png) no-repeat 0 0;
-    background-size: 11px;
-    width: 11px;
-    height: 19px;
-    top: 16px;
-    right: 21px;
-    -webkit-transition: right 0.3s ease-in-out;
-    transition: right 0.3s ease-in-out; }
 
 .banner-bg {
   padding: 8.5em 0; }
