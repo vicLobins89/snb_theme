@@ -1134,6 +1134,23 @@ body {
     max-width: 165px !important;
     width: auto !important; }
 
+video {
+  width: 100%;
+  height: 100%; }
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+  margin: 0; }
+  .aspect-ratio iframe, .aspect-ratio video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; }
+
 .banner-bg {
   padding: 8.5em 0; }
   .banner-bg.vc_row {
