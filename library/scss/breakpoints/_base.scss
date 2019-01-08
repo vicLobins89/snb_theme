@@ -78,6 +78,13 @@ video {
 	}
 }
 
+#workouts_slider {
+	h3 {
+		@extend .button;
+		color: $white;
+	}
+}
+
 .banner-bg {
 	padding: 8.5em 0;
 	

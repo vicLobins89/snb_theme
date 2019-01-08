@@ -1151,13 +1151,16 @@ video {
     left: 0;
     top: 0; }
 
+#workouts_slider h3 {
+  color: #fff; }
+
 .banner-bg {
   padding: 8.5em 0; }
   .banner-bg.vc_row {
     background-position: center top !important; }
     .banner-bg.vc_row .wpb_text_column {
       padding: 1em; }
-      .banner-bg.vc_row .wpb_text_column.button, .banner-bg.vc_row .wpb_text_column.white-button {
+      .banner-bg.vc_row .wpb_text_column.button, .banner-bg.vc_row #workouts_slider h3.wpb_text_column, #workouts_slider .banner-bg.vc_row h3.wpb_text_column, .banner-bg.vc_row .wpb_text_column.white-button {
         padding: 0; }
   .banner-bg h1 {
     margin-bottom: 5px;
@@ -1170,10 +1173,10 @@ video {
     font-size: 2.6em;
     margin: auto; }
 
-.button, .white-button {
+.button, #workouts_slider h3, .white-button {
   padding: 0 !important;
   margin: 2em 0 !important; }
-  .button a, .white-button a, .button a:visited, .white-button a:visited {
+  .button a, #workouts_slider h3 a, .white-button a, .button a:visited, #workouts_slider h3 a:visited, .white-button a:visited {
     position: relative;
     font-size: 18px;
     background: #000;
@@ -1181,11 +1184,11 @@ video {
     padding: 12px 45px 17px 30px;
     -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out; }
-    .button a:hover, .white-button a:hover, .button a:visited:hover, .white-button a:visited:hover {
+    .button a:hover, #workouts_slider h3 a:hover, .white-button a:hover, .button a:visited:hover, #workouts_slider h3 a:visited:hover, .white-button a:visited:hover {
       color: #3fc1d2; }
-      .button a:hover:after, .white-button a:hover:after, .button a:visited:hover:after, .white-button a:visited:hover:after {
+      .button a:hover:after, #workouts_slider h3 a:hover:after, .white-button a:hover:after, .button a:visited:hover:after, #workouts_slider h3 a:visited:hover:after, .white-button a:visited:hover:after {
         right: 14px; }
-    .button a:after, .white-button a:after, .button a:visited:after, .white-button a:visited:after {
+    .button a:after, #workouts_slider h3 a:after, .white-button a:after, .button a:visited:after, #workouts_slider h3 a:visited:after, .white-button a:visited:after {
       content: '';
       position: absolute;
       background: url(../images/blue-arrow.png) no-repeat 0 0;
@@ -2049,9 +2052,9 @@ TABLET & SMALLER LAPTOPS
   .col-five .wpb_column {
     width: 20%; }
 
-  .button a, .white-button a, .button a:visited, .white-button a:visited {
+  .button a, #workouts_slider h3 a, .white-button a, .button a:visited, #workouts_slider h3 a:visited, .white-button a:visited {
     font-size: 25px; }
-    .button a:after, .white-button a:after, .button a:visited:after, .white-button a:visited:after {
+    .button a:after, #workouts_slider h3 a:after, .white-button a:after, .button a:visited:after, #workouts_slider h3 a:visited:after, .white-button a:visited:after {
       background-size: 15px;
       width: 15px;
       height: 25px;
