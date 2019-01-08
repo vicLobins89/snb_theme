@@ -80,8 +80,35 @@ video {
 
 #workouts_slider {
 	h3 {
-		@extend .button;
+		padding: 0 !important;
+		margin: 2em 0 !important;
+
+		position: relative;
+		font-size: 18px;
+		background: $black;
 		color: $white;
+		padding: 12px 45px 17px 30px;
+		@include transition(color 0.3s ease-in-out);
+
+		&:hover {
+			color: $link-hover;
+
+			&:after {
+				right: 14px;
+			}
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			background: url(../images/blue-arrow.png) no-repeat 0 0;
+			background-size: 11px;
+			width: 11px;
+			height: 19px;
+			top: 16px;
+			right: 21px;
+			@include transition(right 0.3s ease-in-out);
+		}
 	}
 }
 
