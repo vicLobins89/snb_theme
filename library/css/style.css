@@ -1117,6 +1117,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+#container {
+  overflow: hidden; }
+
 #content {
   padding-top: 60px; }
 
