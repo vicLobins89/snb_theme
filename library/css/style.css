@@ -1215,6 +1215,11 @@ video {
       right: 21px;
       -webkit-transition: right 0.3s ease-in-out;
       transition: right 0.3s ease-in-out; }
+  .button span, .white-button span {
+    display: block;
+    margin: 1em 0; }
+  .button.wpb_raw_code, .wpb_raw_code.white-button {
+    text-align: center; }
 
 .white-button a {
   color: #000;

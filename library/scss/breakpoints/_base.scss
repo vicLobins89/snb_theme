@@ -165,6 +165,15 @@ video {
 			@include transition(right 0.3s ease-in-out);
 		}
 	}
+	
+	span {
+		display: block;
+		margin: 1em 0;
+	}
+	
+	&.wpb_raw_code {
+		text-align: center;
+	}
 }
 
 .white-button {
