@@ -234,4 +234,5 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
+
 /* DON'T DELETE THIS CLOSING TAG */ ?>

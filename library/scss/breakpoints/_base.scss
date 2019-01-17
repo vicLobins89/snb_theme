@@ -270,15 +270,23 @@ video {
 }
 
 .workouts-new {
+	.wpb_single_image:hover .vc_figure-caption {
+		bottom: 32px;
+		right: 32px;
+		@include prefix(box-shadow, 7px 7px 0px -1px rgba(255,255,255,1), webkit moz ms);
+	}
+	
 	.vc_figure-caption {
 		position: absolute;
-		bottom: 1.5rem;
-		right: 1.5rem;
+		bottom: 25px;
+		right: 25px;
 		background: $black;
 		padding: .5rem 1rem;
 		font-weight: bold;
 		font-size: 1rem;
 		color: $white;
+		@include transition(all 0.2s ease-in-out);
+		@include prefix(box-shadow, 0px 0px 0px -1px rgba(255,255,255,1), webkit moz ms);
 	}
 }
 

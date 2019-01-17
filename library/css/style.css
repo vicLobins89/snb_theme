@@ -516,6 +516,14 @@ CSS3 GRADIENTS
 BOX SIZING
 *********************/
 /* @include box-sizing(border-box); */
+/*********************
+VENDOR
+*********************/
+/*
+.selector {
+  @include prefix(transform, rotate(45deg), webkit ms);
+}
+*/
 /******************************************************************
 Site Name: Honey
 Author: Vic Lobins
@@ -1279,15 +1287,28 @@ video {
   text-align: center;
   margin-bottom: 50px; }
 
+.workouts-new .wpb_single_image:hover .vc_figure-caption {
+  bottom: 32px;
+  right: 32px;
+  -webkit-box-shadow: 7px 7px 0px -1px white;
+  -moz-box-shadow: 7px 7px 0px -1px white;
+  -ms-box-shadow: 7px 7px 0px -1px white;
+  box-shadow: 7px 7px 0px -1px white; }
 .workouts-new .vc_figure-caption {
   position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 25px;
+  right: 25px;
   background: #000;
   padding: .5rem 1rem;
   font-weight: bold;
   font-size: 1rem;
-  color: #fff; }
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 0px -1px white;
+  -moz-box-shadow: 0px 0px 0px -1px white;
+  -ms-box-shadow: 0px 0px 0px -1px white;
+  box-shadow: 0px 0px 0px -1px white; }
 
 .instructors {
   padding: 2em 0; }
