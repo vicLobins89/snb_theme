@@ -1346,6 +1346,17 @@ video {
 .lessons img {
   margin-bottom: 20px; }
 
+.page-template-page-custom .bw-widget--large.bw-widget--spacious .bw-session,
+.page-template-page-custom .bw-widget--large .bw-widget__date {
+  padding: 10px; }
+.page-template-page-custom .bw-widget__cart_button {
+  display: none; }
+.page-template-page-custom .bw-widget--spacious .bw-session__staff {
+  text-align: right;
+  margin: 0; }
+.page-template-page-custom .bw-widget--large .bw-fullcal__field {
+  margin: 15px 10px !important; }
+
 /********************
 WORDPRESS BODY CLASSES
 ********************/

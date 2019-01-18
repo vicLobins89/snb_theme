@@ -351,9 +351,25 @@ video {
 }
 
 
-//.page-template-page-custom {
-//	
-//}
+.page-template-page-custom {
+	.bw-widget--large.bw-widget--spacious .bw-session,
+	.bw-widget--large .bw-widget__date {
+		padding: 10px;
+	}
+	
+	.bw-widget__cart_button {
+		display: none;
+	}
+	
+	.bw-widget--spacious .bw-session__staff {
+		text-align: right;
+		margin: 0;
+	}
+	
+	.bw-widget--large .bw-fullcal__field {
+		margin: 15px 10px !important;
+	}
+}
 
 /********************
 WORDPRESS BODY CLASSES
