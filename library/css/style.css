@@ -1226,7 +1226,7 @@ video {
   .button span, .white-button span {
     display: block;
     margin: 1em 0; }
-  .wrap .button .healcode-link, .wrap .white-button .healcode-link {
+  .wrap .button.healcode-button, .wrap .healcode-button.white-button {
     text-align: right; }
 
 .white-button a {
