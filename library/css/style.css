@@ -1349,7 +1349,9 @@ video {
 .page-template-page-custom .bw-widget--large.bw-widget--spacious .bw-session,
 .page-template-page-custom .bw-widget--large .bw-widget__date {
   padding: 10px; }
-.page-template-page-custom .bw-widget__cart_button {
+.page-template-page-custom .bw-widget__cart_button,
+.page-template-page-custom .visit_type,
+.page-template-page-custom .type_group {
   display: none; }
 .page-template-page-custom .bw-widget--spacious .bw-session__staff {
   text-align: right;

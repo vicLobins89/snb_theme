@@ -357,7 +357,9 @@ video {
 		padding: 10px;
 	}
 	
-	.bw-widget__cart_button {
+	.bw-widget__cart_button,
+	.visit_type,
+	.type_group {
 		display: none;
 	}
 	
