@@ -1226,8 +1226,8 @@ video {
   .button span, .white-button span {
     display: block;
     margin: 1em 0; }
-  .button.wpb_raw_code, .wpb_raw_code.white-button {
-    text-align: center; }
+  .wrap .button, .wrap .white-button {
+    text-align: right; }
 
 .white-button a {
   color: #000;
